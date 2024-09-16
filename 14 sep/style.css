@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.main{
+    height: 90vh;
+    width: 85vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.card1{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    width: 270px;
+    min-height: 600px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px
+}
+.s1{
+    background-image: linear-gradient( 109.6deg,  rgba(103,30,117,1) 11.2%, rgba(252,76,2,1) 91.1% );    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.s1 > p{
+    text-align: center;
+    font-size: 12px;
+}
+.s1 > .line{
+    border: 1px solid white;
+    width: 95%;
+}
+.s2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+.price{
+    padding: 10px;
+}
+.price > span:nth-child(1){
+    font-size: 24px;
+    vertical-align: top;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.price > span:nth-child(3){
+    font-size: 24px;
+    vertical-align: bottom;
+}
+.price > span:nth-child(2){
+    font-size: 70px;
+    font-weight: 800;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.s2 > .line{
+    border: 2px solid black;
+    width: 70%;
+    border-radius: 5px;
+}
+.pointer1{
+    height: 15px;
+    width: 15px;
+    background-image: linear-gradient( 109.6deg,  rgba(103,30,117,1) 11.2%, rgba(252,76,2,1) 91.1% );    color: white;
+    border-radius: 50%;
+}
+.list-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 10px;
+}
+p{
+    font-size: 14px;
+    width: 80%;
+}
+.list-box{
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.s3{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+}
+#b1 > button{
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 18px;
+    background-image: linear-gradient( 109.6deg,  rgba(103,30,117,1) 11.2%, rgba(252,76,2,1) 91.1% );    color: white;
+    color: aliceblue;
+}
+
+
+
+
+.card2{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    width: 270px;
+    min-height: 600px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px
+}
+.cs1{
+    background-image: linear-gradient( 358.4deg,  rgba(249,151,119,1) -2.1%, rgba(98,58,162,1) 90% );   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.cs1 > p{
+    text-align: center;
+    font-size: 12px;
+}
+.cs1 > .line{
+    border: 1px solid white;
+    width: 95%;
+}
+.cs2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+.price{
+    padding: 10px;
+}
+.price > span:nth-child(1){
+    font-size: 24px;
+    vertical-align: top;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.price > span:nth-child(3){
+    font-size: 24px;
+    vertical-align: bottom;
+}
+.price > span:nth-child(2){
+    font-size: 70px;
+    font-weight: 800;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.cs2 > .line{
+    border: 2px solid black;
+    width: 70%;
+    border-radius: 5px;
+}
+.pointer2{
+    height: 15px;
+    width: 15px;
+    background-image: linear-gradient( 358.4deg,  rgba(249,151,119,1) -2.1%, rgba(98,58,162,1) 90% );    display: flex;
+    border-radius: 50%;
+}
+.list-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 10px;
+}
+p{
+    font-size: 14px;
+    width: 80%;
+}
+.list-box{
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cs3{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+}
+#b2 > button{
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 18px;
+    background-image: linear-gradient( 358.4deg,  rgba(249,151,119,1) -2.1%, rgba(98,58,162,1) 90% );    display: flex;
+    color: aliceblue;
+}
+
+
+
+
+.card3{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    width: 270px;
+    min-height: 600px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px
+}
+.ps1{
+    background-image: linear-gradient( 150.4deg,  rgba(218,29,29,1) 30.6%, rgba(255,105,105,1) 63.6% );    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.ps1 > p{
+    text-align: center;
+    font-size: 12px;
+}
+.ps1 > .line{
+    border: 1px solid white;
+    width: 95%;
+}
+.ps2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+.price{
+    padding: 10px;
+}
+.price > span:nth-child(1){
+    font-size: 24px;
+    vertical-align: top;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.price > span:nth-child(3){
+    font-size: 24px;
+    vertical-align: bottom;
+}
+.price > span:nth-child(2){
+    font-size: 70px;
+    font-weight: 800;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.ps2 > .line{
+    border: 2px solid black;
+    width: 70%;
+    border-radius: 5px;
+}
+.pointer3{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-image: linear-gradient( 150.4deg,  rgba(218,29,29,1) 30.6%, rgba(255,105,105,1) 63.6% );}
+.list-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 10px;
+}
+p{
+    font-size: 14px;
+    width: 80%;
+}
+.list-box{
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ps3{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+}
+#b3 > button{
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 18px;
+    background-image: linear-gradient( 150.4deg,  rgba(218,29,29,1) 30.6%, rgba(255,105,105,1) 63.6% );
+    color: aliceblue;
+}
