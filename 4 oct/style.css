@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+.container{
+    height: 400px;
+    width: 400px;
+}
+.box{
+    position: absolute;
+    top: 170px;
+    left: 145px;
+    height: 350px;
+    width: 350px;
+    background-color: red;
+}
+@keyframes sneha {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#b1{
+    position: absolute;
+    top: 180px;
+    left: 155px;
+    height: 330px;
+    width: 330px;
+    background-color: white;
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+#b2{
+    position: absolute;
+    top: 190px;
+    left: 165px;
+    height: 310px;
+    width: 310px;
+    background-color: black;
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+}
+#b3{
+    position: absolute;
+    top: 200px;
+    left: 175px;
+    height: 290px;
+    width: 290px;
+    background-color: white;
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+#b4{
+    position: absolute;
+    top: 210px;
+    left: 185px;
+    height: 270px;
+    width: 270px;
+    background-color: black;
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2.5s;
+}
+#b5{
+    position: absolute;
+    top: 220px;
+    left: 195px;
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+#b6{
+    position: absolute;
+    top: 230px;
+    left: 205px;
+    height: 230px;
+    width: 230px;
+    background-color: black;
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3.5s;
+}
+#b7{
+    position: absolute;
+    top: 240px;
+    left: 215px;
+    height: 210px;
+    width: 210px;
+    background-color: white;
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+#b8{
+    position: absolute;
+    top: 250px;
+    left: 225px;
+    height: 190px;
+    width: 190px;
+    background-color: black;
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 4.5s;
+}
+#b9{
+    position: absolute;
+    top: 260px;
+    left: 235px;
+    height: 170px;
+    width: 170px;
+    background-color: white;
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+#b10{
+    position: absolute;
+    top: 270px;
+    left: 245px;
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 5.5s;
+}
+#b11{
+    position: absolute;
+    top: 280px;
+    left: 255px;
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 6s;
+}
+#b12{
+    position: absolute;
+    top: 290px;
+    left: 265px;
+    height: 110px;
+    width: 110px;
+    background-color: black;
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 6.5s;
+}
+#b13{
+    position: absolute;
+    top: 300px;
+    left: 275px;
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 7s;
+}
+#b14{
+    position: absolute;
+    top: 310px;
+    left: 285px;
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 7.5s;
+}

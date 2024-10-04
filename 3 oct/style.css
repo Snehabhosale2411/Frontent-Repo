@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+}
+.flower{
+    background-image: linear-gradient( 85.2deg,  rgba(33,3,40,1) 7.5%, rgba(65,5,72,1) 88.7% );;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    border-radius: 36% 64% 0% 100% / 37% 100% 0% 63% ;
+    transform-origin: top left;
+}
+@keyframes sneha {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+#f1{
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+#f2{
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+}
+#f3{
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+#f4{
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2.5s;
+}
+#f5{
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+#f6{
+    animation-name: sneha;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3.5s;
+}
+.aster{
+    background-image: linear-gradient( 291.7deg,  rgba(255,134,134,1) 21.5%, rgba(249,141,255,1) 93.1% );    
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 196px;
+    right: 222px;
+    border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%   ;
+    transform-origin: bottom right;
+}
+@keyframes shruti {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    } 
+}
+
+#a1{
+    animation-name: shruti;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+#a2{
+    animation-name: shruti;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+#a3{
+    animation-name: shruti;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+}
+#a4{
+    animation-name: shruti;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+#a5{
+    animation-name: shruti;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2.5s;
+}
+#a6{
+    animation-name: shruti;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+#a7{
+    animation-name: shruti;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3.5s;
+}
+#a8{
+    animation-name: shruti;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+#a9{
+    animation-name: shruti;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 4.5s;
+}
+#a10{
+    animation-name: shruti;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
